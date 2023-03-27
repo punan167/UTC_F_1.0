@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-image: linear-gradient(to right, #00b4db ,#0083b0);
@@ -71,4 +72,8 @@ body{
 .packages .serviceCenter:hover{
     transform: translateY(-6px);
     box-shadow: 0px 0px 10px 0px black;
+}
+
+.digitalMarketing p{
+    font-size: 12px;
 }
