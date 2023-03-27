@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #00b4db ,#0083b0);
+}
+
+.pricing p{
+    font-size: 13px;
+} 
+.packages p{
+    font-size: 13px;
+    padding: 0;
+    margin: 1px 0;
+}
+
+
+.discount .discountContent p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 110px;
+
+}
+.discount{
+    position: relative;
+    transition: 0.3s;
+}
+
+.discount .discountContent{
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    transition: 1s;
+}
+.discount:hover{
+    transform: translateY(-5px);
+}
+
+.circleTop ,.circleBottom{
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+.circleTop{
+    border-radius: 150px 150px 0 0;
+    background-color: #444444;
+}
+.circleBottom{
+    border-radius: 0px 0px 150px 150px;
+    background-color: rgb(214, 212, 212);
+}
+.footer p{
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.packages .serviceCenter{
+    transition: 0.5s;
+}
+.packages .serviceCenter:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 0px 10px 0px black;
+}
